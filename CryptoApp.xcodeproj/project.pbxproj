@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		95AAAF8127A8A747004F8E9A /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF8027A8A747004F8E9A /* CryptoAppApp.swift */; };
 		95AAAF8327A8A747004F8E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF8227A8A747004F8E9A /* ContentView.swift */; };
-		95AAAF8527A8A749004F8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AAAF8427A8A749004F8E9A /* Assets.xcassets */; };
 		95AAAF8827A8A749004F8E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AAAF8727A8A749004F8E9A /* Preview Assets.xcassets */; };
+		95AAAF8F27A8A7BE004F8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AAAF8E27A8A7BE004F8E9A /* Assets.xcassets */; };
+		95AAAF9227A8A8C8004F8E9A /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAAF9127A8A8C8004F8E9A /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95AAAF7D27A8A747004F8E9A /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AAAF7D27A8A747004F8E9A /* Crypto Trak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Trak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AAAF8027A8A747004F8E9A /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		95AAAF8227A8A747004F8E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		95AAAF8427A8A749004F8E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95AAAF8727A8A749004F8E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95AAAF8E27A8A7BE004F8E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		95AAAF9127A8A8C8004F8E9A /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		95AAAF7E27A8A747004F8E9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95AAAF7D27A8A747004F8E9A /* CryptoApp.app */,
+				95AAAF7D27A8A747004F8E9A /* Crypto Trak.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +53,10 @@
 		95AAAF7F27A8A747004F8E9A /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				95AAAF9027A8A8BA004F8E9A /* Extensions */,
 				95AAAF8027A8A747004F8E9A /* CryptoAppApp.swift */,
 				95AAAF8227A8A747004F8E9A /* ContentView.swift */,
-				95AAAF8427A8A749004F8E9A /* Assets.xcassets */,
+				95AAAF8E27A8A7BE004F8E9A /* Assets.xcassets */,
 				95AAAF8627A8A749004F8E9A /* Preview Content */,
 			);
 			path = CryptoApp;
@@ -65,6 +68,14 @@
 				95AAAF8727A8A749004F8E9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95AAAF9027A8A8BA004F8E9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95AAAF9127A8A8C8004F8E9A /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +95,7 @@
 			);
 			name = CryptoApp;
 			productName = CryptoApp;
-			productReference = 95AAAF7D27A8A747004F8E9A /* CryptoApp.app */;
+			productReference = 95AAAF7D27A8A747004F8E9A /* Crypto Trak.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AAAF8827A8A749004F8E9A /* Preview Assets.xcassets in Resources */,
-				95AAAF8527A8A749004F8E9A /* Assets.xcassets in Resources */,
+				95AAAF8F27A8A7BE004F8E9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				95AAAF8327A8A747004F8E9A /* ContentView.swift in Sources */,
 				95AAAF8127A8A747004F8E9A /* CryptoAppApp.swift in Sources */,
+				95AAAF9227A8A8C8004F8E9A /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +296,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.duncankent.CryptoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Crypto Trak";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +326,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.duncankent.CryptoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Crypto Trak";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
